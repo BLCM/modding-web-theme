@@ -1,3 +1,23 @@
+# About This Fork
+
+This is a fork of the mmistakes/minimal-mistakes Jekyll theme which is
+being used as the theme for http://borderlandsmodding.com/
+
+The changes aren't super crazy.  At the moment (and I'll try to keep
+this updated), these are the changes which have been made:
+
+- Added a "Posted:" date on post snippets shown on the homepage, and
+  a "click for more info" link (in `_includes/archive-single.html`)
+- Removed the auto-page-title on `archive` pages (in `_layouts/archive.html`)
+- Removed the auto-page-title on `single` pages (in `_layouts/single.html`)
+- Renamed "Recent Posts" to "Recent News," in a very ham-fisted way
+  because I didn't bother to figure out the site localization stuff
+  (in `_layouts/home.html`)
+- Added various custom CSS in `assets/css/main.scss`
+
+See the BLCM/modding-web project for the site code which makes use of
+this theme.
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
